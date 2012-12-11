@@ -1,3 +1,33 @@
+             ===========================================
+         *** Unofficial fork of Mail::SpamAssassin 3.3.2 ***
+             ===========================================
+
+SpamAssassin 3.3.2 is used in Benchmark::Perl::Formance
+
+  http://perlformance.net
+
+to benchmark perl, the interpreter of Perl 5. Sometimes changes are
+required to keep it working with changes in Perl.
+
+Only minimal changes that hopefully do not affect benchmarks are
+applied.
+
+This fork exists because there is no SpamAssassin release 3.3.3
+planned. Feel free to use it instead of the CPAN version 3.3.2.
+
+For serious SpamAssassin usage you should go for the official SVN
+repository, see
+
+  http://wiki.apache.org/spamassassin/DownloadFromSvn
+
+for details.
+
+Steffen "renormalist" Schwigon
+
+
+                                 ***
+
+
 Welcome to SpamAssassin!
 ------------------------
 
