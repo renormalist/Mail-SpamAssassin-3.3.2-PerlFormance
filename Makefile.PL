@@ -111,7 +111,7 @@ sub yesno {
 my %opt = (
   'build_spamc'     => undef,
   'enable_ssl'      => undef,
-  'contact_address' => undef,
+  'contact_address' => "the administrator of that system",
   'destdir'         => undef,
 );
 ARGV: foreach (@ARGV) {
